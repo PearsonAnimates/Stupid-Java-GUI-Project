@@ -21,9 +21,10 @@ public class GUIFrame extends JFrame
 	private void setupFrame()
 	{
 		this.setContentPane(appPanel);
-		this.setTitle("Calvin is a terrible person, he eats hobbits for lunch on a daily basis");
+		this.setTitle("Calvin is a terrible person, he eats hobbits for lunch on a daily basis, after neutralizing them with the"
+				+ " epilepsy button");
 		this.setSize(500, 500);
-		this.setResizable(false);
+		this.setResizable(true);
 		this.setVisible(true);
 	}
 	

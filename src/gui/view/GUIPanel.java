@@ -20,7 +20,7 @@ public class GUIPanel extends JPanel
 	{
 		super();
 		this.appController = appController;
-		firstButton = new JButton("touch the butt, I am the butt");
+		firstButton = new JButton("Epilepsy Button (spam it fo a free ride to the hospital.");
 		appLayout = new SpringLayout();
 		
 		
